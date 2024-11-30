@@ -55,3 +55,41 @@ A sophisticated trading analysis dashboard that combines machine learning, techn
 ```bash
 git clone https://github.com/yourusername/advanced-trading-bot.git
 cd advanced-trading-bot
+```
+
+2. Create and activate a virtual environment (recommended)
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+
+3. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+4. Run the application
+```bash
+streamlit run advisor.py
+```
+
+## 📊 Usage
+
+1. Add stocks to your watchlist using the sidebar
+2. View real-time analysis across four main sections:
+   - Active Signals: Current trading recommendations
+   - Technical Analysis: Detailed indicator charts
+   - News Impact: Sentiment analysis and news tracking
+   - Performance: Historical accuracy and predictions
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## ⚠️ Disclaimer
+
+This software is for educational and research purposes only. Do not use this system for actual trading without understanding the risks involved. Always do your own research and consult with financial advisors before making investment decisions.
