@@ -1,95 +1,77 @@
-# 🤖 Advanced Trading Bot
+# Advanced Trading Bot
 
-A sophisticated trading analysis dashboard that combines machine learning, technical analysis, and sentiment analysis to generate high-confidence trading signals. Built with Python and Streamlit, this platform provides a comprehensive suite of tools for market analysis and trading decisions.
+## Overview
+Advanced Trading Bot is a Python-based platform for comprehensive trading analysis. It combines technical analysis, machine learning predictions, and sentiment analysis to generate actionable insights and trading signals. Built with Streamlit for an interactive and user-friendly dashboard, this project empowers traders and analysts with advanced tools for decision-making.
 
-## ✨ Key Features
+## Features
+- **Technical Analysis**:
+  - 15+ technical indicators including RSI, MACD, Bollinger Bands, and more.
+  - Custom candlestick pattern recognition for Doji, Hammer, and Engulfing patterns.
+  - Signal generation with confidence scoring for better decision-making.
+- **Machine Learning**:
+  - LSTM-based price prediction for short-term forecasting.
+  - Rolling prediction accuracy tracking and retraining.
+- **Sentiment Analysis**:
+  - Real-time analysis of financial news using TextBlob.
+  - Sentiment scoring with trend analysis and impact detection.
+- **Interactive Dashboard**:
+  - Real-time stock data visualization with Plotly.
+  - Watchlist management for monitoring multiple stocks.
+  - Comprehensive performance tracking and historical analysis.
 
-- **Technical Analysis Engine**
-  - 15+ technical indicators including RSI, MACD, Bollinger Bands
-  - Custom pattern recognition for candlestick formations
-  - Automated signal generation with confidence scoring
+## Tech Stack
+- **Programming Language**: Python 3.10+
+- **Libraries & Frameworks**:
+  - Streamlit for the user interface.
+  - PyTorch and scikit-learn for machine learning.
+  - Plotly and pandas-ta for visualization and technical analysis.
+  - yfinance for financial data retrieval.
+- **Storage**: SQLite for local data persistence.
 
-- **Machine Learning Integration**
-  - LSTM neural networks for price predictions
-  - Custom-trained models for each stock
-  - Rolling prediction accuracy tracking
-
-- **Sentiment Analysis**
-  - Real-time news sentiment tracking
-  - TextBlob-powered natural language processing
-  - Sentiment trend analysis and impact scoring
-
-- **Interactive Dashboard**
-  - Real-time candlestick charts with technical overlays
-  - Comprehensive stock watchlist management
-  - Historical analysis tracking and performance metrics
-  - Custom visualization for all indicators and signals
-
-## 🛠️ Tech Stack
-
-- **Core**: Python 3.10+
-- **Framework**: Streamlit
-- **Data Processing**: 
-  - pandas
-  - numpy
-  - yfinance
-  - pandas-ta
-- **Machine Learning**: 
-  - PyTorch
-  - scikit-learn
-- **Visualization**: 
-  - Plotly
-  - Streamlit components
-- **Storage**: SQLite3
-
-## 🚀 Getting Started
-
+## Getting Started
 ### Prerequisites
-
-- Python 3.10 or higher
-- pip package manager
+Ensure you have Python 3.10 or higher installed.
 
 ### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/advanced-trading-bot.git
+   cd advanced-trading-bot
+   ```
+2. Create and activate a virtual environment (recommended):
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   ```
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. Run the application:
+   ```bash
+   streamlit run advisor.py
+   ```
 
-1. Clone the repository
-```bash
-git clone https://github.com/yourusername/advanced-trading-bot.git
-cd advanced-trading-bot
-```
+## Usage
+1. Add stocks to your watchlist using the sidebar menu.
+2. Explore the dashboard sections:
+   - **Active Signals**: Current buy, sell, or hold recommendations.
+   - **Technical Analysis**: In-depth analysis of indicators and patterns.
+   - **News Impact**: Sentiment analysis from the latest financial news.
+   - **Performance**: Historical metrics and prediction accuracy.
 
-2. Create and activate a virtual environment (recommended)
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
+## Future Enhancements
+- Implement integration with broker APIs for live trading.
+- Add support for cryptocurrency and forex markets.
+- Improve AI accuracy with advanced architectures and larger datasets.
+- Expand sentiment analysis using transformer models like BERT.
 
-3. Install dependencies
-```bash
-pip install -r requirements.txt
-```
+## Contributing
+We welcome contributions! Feel free to fork the repository, make your changes, and submit a pull request. For significant changes, open an issue to discuss your ideas first.
 
-4. Run the application
-```bash
-streamlit run advisor.py
-```
+## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## 📊 Usage
+## Disclaimer
+*This software is intended for educational purposes only. Use it at your own risk and consult with a financial advisor before making any trading decisions.*
 
-1. Add stocks to your watchlist using the sidebar
-2. View real-time analysis across four main sections:
-   - Active Signals: Current trading recommendations
-   - Technical Analysis: Detailed indicator charts
-   - News Impact: Sentiment analysis and news tracking
-   - Performance: Historical accuracy and predictions
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
-
-## 📝 License
-
-This project is licensed under the MIT License 
-
-## ⚠️ Disclaimer
-
-This software is for educational and research purposes only. Do not use this system for actual trading without understanding the risks involved. Always do your own research and consult with financial advisors before making investment decisions.
