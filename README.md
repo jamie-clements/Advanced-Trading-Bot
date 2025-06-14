@@ -1,7 +1,7 @@
-# Advanced Trading Bot
+# LSTM Trading Analysis Platform
 
 ## Overview
-Advanced Trading Bot is a Python-based platform for comprehensive trading analysis. It combines technical analysis, machine learning predictions, and sentiment analysis to generate actionable insights and trading signals. Built with Streamlit for an interactive and user-friendly dashboard, this project empowers traders and analysts with advanced tools for decision-making.
+LSTM Trading Analysis Platform is a Python-based platform for comprehensive trading analysis. It combines technical analysis, machine learning predictions, and sentiment analysis to generate actionable insights and trading signals. Built with Streamlit for an interactive and user-friendly dashboard, this project empowers traders and analysts with advanced tools for decision-making.
 
 ## Features
 - **Technical Analysis**:
